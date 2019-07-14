@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+				<!--// Phoenix Reborn Free Tv List Addon Hrvatski\\-->
+				
+<addon id="plugin.video.phoenixreborn" name="[COLOR orangered]Phoenix Reborn[/COLOR] [COLOR white]Free Tv List Addon[/COLOR]" version="2.3.5" provider-name="Kodi Phoenix Reborn">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.phoenixreborn"/>	
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+	<import addon="script.video.F4mProxy" />                                                     
+	<import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.live.streamspro" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata"> 
+		<summary lang="hr_HR">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova.[COLOR=cyan]Facebook[/COLOR] grupa: [COLOR=orangered]Kodi Phoenix Reborn Squad[/COLOR].</summary>
+		<summary lang="en_GB">This add-on does not contain any content within the add-on, but only the links that lead to streams. [COLOR cyan]Facebook[/COLOR] Group: [COLOR=orangered]Kodi Phoenix Reborn Squad[/COLOR].</summary>
+		<description lang="hr_HR">IPTV Kanali, Pink, Ex-Yu Kanali, Sport, Filmovi, Serije, Radio. [COLOR=cyan]Facebook[/COLOR] grupa: [COLOR=orangered]Kodi Phoenix Reborn Squad[/COLOR]</description>
+		<description lang="en_GB">IPTV Channels, Pink, Ex-Yu Channels, Sports, Movies, Series, Radio.. [COLOR=cyan]Facebook[/COLOR] grupa: [COLOR=orangered]Kodi Phoenix Reborn Squad[/COLOR].</description>
+		<news lang="hr_HR">Nova verzija addon-a [COLOR orangered]Phoenix Reborn[/COLOR] [COLOR white]Free Tv List Addon[/COLOR]. Verzija: 2.3.0. Dodani novi kanali, linkovi, ispravljeni nedostatci, izmijenjen izgled i funkcionalnost addona. [COLOR=cyan]Facebook[/COLOR] grupa: [COLOR=orangered]Kodi Phoenix Reborn Squad[/COLOR].</news>
+		<news lang="en_GB">New version of the [COLOR orangered]Phoenix Reborn[/COLOR] [COLOR white]Free Tv List Addon[/COLOR]. Version: 2.3.0. Added new channels, new links, new streams, fixed bugs, changed layout and functionality of addon. [COLOR cyan]Facebook[/COLOR] Group: [COLOR=orangered]Kodi Phoenix Reborn Squad[/COLOR].</news>		
+		<disclaimer lang="hr_HR">Autor ovog add-ona ne sadrzi bilo koji sadrzaj koji se nalazi i nema vezu s bilo kojim davateljima sadrzaja. Ovaj Add-on jednostavno pretrazuje web stranice za sadrzaj. Koristite na vlastiti rizik! [COLOR=cyan]Facebook[/COLOR] grupa: [COLOR=orangered]Kodi Phoenix Reborn Squad[/COLOR].</disclaimer>
+		<disclaimer lang="en_GB">Author of this add-on does not contain any content and has no connection with any content provider. This add-on simply looks for content websites. Use at your own risk![COLOR cyan]Facebook[/COLOR] Group: [COLOR=orangered]Kodi Phoenix Reborn Squad[/COLOR].</disclaimer>
+		<platform>all</platform>
+		<website>http://phoenixrebornbuild.com.hr</website>
+  </extension>
+</addon>
